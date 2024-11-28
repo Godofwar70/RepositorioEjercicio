@@ -22,12 +22,6 @@ class Keyword:
         cls.all_keywords.append(keyword)
 
 
-def muestra_menu():
-    """Muestra el menú de opciones."""
-    print("1. Cargar palabras clave")
-    print("2. Mostrar palabras clave")
-    print("3. Comprobar posiciones")
-    print("0. Salir")
 
 
 def carga_keywords():
