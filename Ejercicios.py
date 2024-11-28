@@ -66,7 +66,7 @@ def keywords_como_lista_de_valores(keywords):
     """Devuelve una lista de tuplas con las palabras clave y sus posiciones."""
     return [(kw.keywords, kw.posicion) for kw in keywords]
 
-
+#Se ejecutara el programa
 def run():
     """Función principal que ejecuta el programa."""
     keywords = Keyword.get_all()
